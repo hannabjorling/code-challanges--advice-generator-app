@@ -1,12 +1,14 @@
-$primary-cyan: hsl(193, 38%, 86%);
+/* PRIMARY COLORS */
 $primary-green: hsl(150, 100%, 66%);
 $neutral-blue-light: hsl(217, 19%, 38%);
 $neutral-blue-medium: hsl(217, 19%, 24%);
 $neutral-blue-dark: hsl(218, 23%, 16%);
 
+/* PRIMARY FONT */
 $ff-primary: 'Manrope',
     sans-serif;
 
+/* ICONS BOOTSTRAP */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
 
 body {
@@ -22,11 +24,11 @@ body {
 
     .card {
         background-color: $neutral-blue-medium;
-        padding: 40px;
+        padding: 40px 20px;
         margin: 0 10px;
         text-align: center;
         align-items: center;
-        width: 550px;
+        width: 450px;
 
         h1 {
             color: $primary-green;
@@ -45,7 +47,7 @@ body {
             justify-content: center;
 
             hr {
-                width: 150px;
+                width: 100px;
                 border-top: 1px solid white;
                 margin-top: 26px;
             }
@@ -70,5 +72,19 @@ body {
         .next-btn:hover {
             box-shadow: 0px 1px 36px 0px $primary-green;
         }
+    }
+}
+
+.attribution {
+    color: white;
+}
+
+@media screen and (min-width: 1440px) {
+    .card {
+        padding: 40px;
+    }
+
+    hr {
+        width: 150px;
     }
 }
