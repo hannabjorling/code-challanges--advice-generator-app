@@ -28,10 +28,6 @@ Users should be able to:
 ![](./public/screenshots/desktop.png)
 ![](./public/screenshots/mobile.png)
 
-### Links
-
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
 ## My process
 
 ### Built with
