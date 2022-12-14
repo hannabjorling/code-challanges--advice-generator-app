@@ -1,0 +1,46 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+.container {
+  background-color: hsl(218deg, 23%, 16%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.container .card {
+  background-color: hsl(217deg, 19%, 24%);
+  padding: 40px;
+  margin: 0 10px;
+  text-align: center;
+}
+.container .card h1 {
+  color: hsl(150deg, 100%, 66%);
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+.container .card p {
+  color: #fff;
+  font-size: 28px;
+}
+.container .card .quote-section {
+  display: flex;
+  justify-content: center;
+}
+.container .card .quote-section hr {
+  width: 150px;
+  border-top: 1px solid white;
+  margin-top: 26px;
+}
+.container .card .quote-section .bi-pause-fill {
+  color: #fff;
+  font-size: 35px;
+  padding: 0 10px;
+}
+.container .card .next-btn {
+  width: 60px;
+  height: 60px;
+  background-color: hsl(150deg, 100%, 66%);
+  border-radius: 100%;
+  border: 1px solid #000;
+  position: relative;
+  bottom: -70px;
+}
